@@ -10,6 +10,37 @@
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+
+  
+
+   
+  <script>
+
+
+
+document.addEventListener('contextmenu', event=> event.preventDefault()); 
+document.onkeydown = function(e) { 
+if(event.keyCode == 123) { 
+return false; 
+} 
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ 
+return false; 
+} 
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ 
+return false; 
+} 
+if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ 
+return false; 
+} 
+} 
+  
+ document.addEventListener('contextmenu', function(e) {
+   e.preventDefault();
+ });
+   </script>
+
+
+
   </head>
   <body id="top">
     <header>
@@ -52,7 +83,7 @@
             <i class="fa fa-facebook"></i></a>
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/hafizsameerali/" target="blank" rel="tooltip" title="Follow me on Linkedin">
               <i class="fa fa-linkedin"></i></a>
-              <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/HafizSameerAli" target="blank" rel="tooltip" title="Follow me on Github">
+              <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/HafizSameerAli" target="_blank" rel="tooltip" title="Follow me on Github">
                 <i class="fa fa-github"></i></a></div>
         </div>
       </div>
@@ -587,7 +618,7 @@
           <div class="container text-center">
             <a class="cc-facebook btn btn-link" href="https://www.facebook.com/sameer.khanzada123" target="blank"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a>
             <a class="cc-linkedin btn btn-link " href="https://www.linkedin.com/in/hafizsameerali/" target="blank"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a>
-            <a class="cc-github btn btn-link" href="https://github.com/HafizSameerAli" target="blank"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a>
+            <a class="cc-github btn btn-link" href="https://github.com/HafizSameerAli" target="_blank"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a>
             
           <div class="h4 title text-center">Hafiz Sameer Ali</div>
           <div class="text-center text-muted">

@@ -2,8 +2,25 @@
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed
+ under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ 
+/*----- Disable Text Selection with CSS Code-------*/
+
+.post blockquote {
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+}
+body {
+    -webkit-user-select: none !important;
+    -moz-user-select: -moz-none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    }
+
 
 @media print {
     *,
