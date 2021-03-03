@@ -32,6 +32,15 @@ if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
 return false; 
 } 
 } 
+
+
+
+
+
+
+
+
+
   
  document.addEventListener('contextmenu', function(e) {
    e.preventDefault();
